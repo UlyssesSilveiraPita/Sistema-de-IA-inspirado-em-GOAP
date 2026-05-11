@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 812179dd92e00e7488e54f14a801c6ed, type: 3}
+  m_Name: CombatAct_MeleeAttack
+  m_EditorClassIdentifier: Assembly-CSharp::up.AI.Combat.CombatAct_MeleeAttack
+  actionName: Melee Attack
+  decisionDelay: 0.2
+  baseCost: 0.7
+  scoreMultiplier: 1
+  scoreJitter: 0.05
+  useScoreJitter: 1
+  executeRange: 1.5
+  extraRangeTolerance: 0.2
+  animatorTrigger: Attack_01
+  reguiresLos: 1
+  backstepChance: 0.35
+  backstepDesireDuration: 0.9
+  preferredMinDistance: 0
+  preferredMaxDistance: 1.6

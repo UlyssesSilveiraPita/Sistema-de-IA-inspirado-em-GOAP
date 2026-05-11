@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60b0d9cc95c3f24da9b856c6b474e38, type: 3}
+  m_Name: CombatAct_BowAttack
+  m_EditorClassIdentifier: Assembly-CSharp::up.AI.Combat.CombatAct_BowAttack
+  actionName: BowAttack
+  decisionDelay: 0.2
+  baseCost: 1
+  scoreMultiplier: 1
+  scoreJitter: 0.05
+  useScoreJitter: 1
+  minBowRange: 5
+  idealBowRange: 8
+  maxBowRange: 12
+  extraRangeTolerance: 0.25
+  requireLos: 0
+  animatorTrigger: BowShot
