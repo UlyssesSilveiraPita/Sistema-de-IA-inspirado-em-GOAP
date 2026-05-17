@@ -1,43 +1,139 @@
-# Sistema-de-IA-inspirado-em-GOAP
-Estou desenvolvendo um sistema de IA inspirado em GOAP (Goal Oriented Action Planning), onde os inimigos tomam decisões dinâmicas baseadas na situação do combate. ⚔️🧠
+# Sistema de IA inspirado em GOAP para RPG de Aventura
 
-🚀 Nova atualização da IA do meu jogo 3D na Unity!
+Sistema avançado de IA desenvolvido em Unity 6.2 utilizando C#, inspirado na arquitetura GOAP (Goal Oriented Action Planning) para jogos RPG de aventura em terceira pessoa inspirados em Zelda.
 
-Estou desenvolvendo um sistema de IA inspirado em GOAP (Goal Oriented Action Planning), onde os inimigos tomam decisões dinâmicas baseadas na situação do combate. ⚔️🧠
+O projeto foi desenvolvido com foco em IA dinâmica, tomada de decisão contextual, combate inteligente e arquitetura modular escalável.
 
-Agora os NPCs conseguem:
+---
 
-✅ Avaliar perigos e ameaças
-✅ Decidir entre atacar ou fugir
-✅ Procurar posições estratégicas
-✅ Alternar entre combate corpo a corpo e combate à distância
-✅ Usar espada quando o jogador está próximo
-✅ Fugir e utilizar arco e flecha quando encontram vantagem tática
-✅ Reagir de forma diferente dependendo da pressão do combate
+## Tecnologias Utilizadas
 
-A ideia é criar inimigos que pareçam realmente inteligentes e imprevisíveis, tornando cada batalha única.
+- Unity 6.2
+- C#
+- NavMesh
+- Scriptable Objects
+- Event System
+- State Machine
+- Blackboard System
+- Utility AI
+- GOAP-like Architecture
+- Component Based Architecture
+- SOLID Principles
 
-Ainda tenho muito para evoluir, mas ver esse sistema funcionando está sendo uma experiência absurda como game developer. 🔥
+---
 
-#Unity3D #GameDev #IndieDev #ArtificialIntelligence #AI #GOAP #GameplayProgramming #CSharp #GameDevelopment #IndieGame #Programacao #Unity
+## Principais Funcionalidades
 
+### Sistema de IA Dinâmica
+Os inimigos analisam o ambiente em tempo real e tomam decisões baseadas em:
 
-🚀 New AI update for my 3D game in Unity!
+- Pressão do combate
+- Geometria do cenário
+- Distância do alvo
+- Quantidade de stamina
+- Estado atual do combate
+- Prioridades dinâmicas
 
-I’m currently developing a GOAP-inspired AI system (Goal Oriented Action Planning) where enemies dynamically decide the best way to react during combat. ⚔️🧠
+---
 
-Now the NPCs can:
+### Comportamentos Implementados
 
-✅ Analyze threats and danger levels
-✅ Decide whether to fight or flee
-✅ Search for strategic positions
-✅ Switch between melee and ranged combat
-✅ Use swords in close combat
-✅ Retreat and attack with bows from distance when tactically advantageous
-✅ React differently depending on combat pressure
+- Patrulhamento
+- Busca por cover
+- Combate melee
+- Combate ranged
+- Recuo estratégico
+- Perseguição
+- Gerenciamento de stamina
+- Troca dinâmica de comportamento
+- Seleção contextual de ações
 
-My goal is to create enemies that feel intelligent, adaptive, and unpredictable, making every fight feel unique.
+---
 
-There’s still a lot to improve, but seeing this system working is an amazing experience as a game developer. 🔥
+### Sistemas de IA
 
-#Unity3D #GameDev #IndieDev #ArtificialIntelligence #AI #GOAP #GameplayProgramming #CSharp #GameDevelopment #IndieGame
+- GOAP-inspired Planner
+- Utility AI
+- Finite State Machine (FSM)
+- Blackboard System
+- Sistema de Sensores
+- Sistema de Visão
+- Pathfinding com NavMesh
+- Sistema de Prioridades
+- Event Driven Architecture
+
+---
+
+## Arquitetura do Projeto
+
+O projeto foi estruturado utilizando:
+
+- Scriptable Objects
+- Interfaces
+- Managers desacoplados
+- Component Based Design
+- Modular Systems
+- Boas práticas SOLID
+
+O objetivo foi criar uma arquitetura reutilizável, escalável e fácil de expandir para diferentes tipos de inimigos e comportamentos.
+
+---
+
+## Diferenciais Técnicos
+
+- IA contextual inspirada em comportamento humano
+- Tomada de decisão baseada em múltiplos fatores
+- Sistema modular de combate
+- Arquitetura desacoplada
+- Fácil expansão de novos comportamentos
+- Sistema híbrido entre GOAP + Utility AI + FSM
+
+---
+
+## Status do Projeto
+
+🚧 Funcional e Experimental
+
+O sistema continua em evolução com novas funcionalidades, melhorias de arquitetura e expansão dos comportamentos de IA.
+
+---
+
+## Futuras Melhorias
+
+- Sistema de memória para NPCs
+- Comunicação entre inimigos
+- Sistema de facções
+- Sistema avançado de percepção sonora
+- Aprimoramento de cobertura dinâmica
+- IA cooperativa em grupo
+- Behavior Trees híbridas
+
+---
+
+## Screenshot
+
+- GitHub<img width="1924" height="1034" alt="rpg adve git foto 1" src="https://github.com/user-attachments/assets/a98b6335-b7f4-4562-bdfb-c88fda3a395e" />
+
+---
+
+## Objetivo do Projeto
+
+O objetivo deste projeto é aprofundar conhecimentos em:
+
+- Inteligência Artificial para Jogos
+- Arquitetura de Software
+- Sistemas Modulares
+- Gameplay Programming
+- Design de Sistemas Escaláveis
+- Engenharia de Gameplay
+
+---
+
+## Autor
+
+Ulysses Pita
+
+C#/.NET Developer | Unity Game Developer
+
+- Portfolio
+- LinkedIn
